@@ -171,7 +171,7 @@ public class registeredStudent extends javax.swing.JFrame {
     private void insertNewResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_insertNewResultActionPerformed
         // TODO add your handling code here:
         setVisible(false);
-        new insertNewResult().setVisible(true);
+        new insertNewMain().setVisible(true);
     }//GEN-LAST:event_insertNewResultActionPerformed
 
     private void registeredStudentsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registeredStudentsActionPerformed

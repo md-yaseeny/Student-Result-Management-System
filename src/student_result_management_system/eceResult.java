@@ -154,19 +154,19 @@ public class eceResult extends javax.swing.JFrame {
         });
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setText("Data Structure");
+        jLabel7.setText("DSP");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 47, 98, 24));
 
-        jLabel8.setText("Algorithm");
+        jLabel8.setText("Analog");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 101, 98, 24));
 
-        jLabel9.setText("DBMS");
+        jLabel9.setText("Communication");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 152, 98, 24));
 
-        jLabel10.setText("OS");
+        jLabel10.setText("Micro Processor");
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 205, 98, 24));
 
-        jLabel11.setText("CN");
+        jLabel11.setText("Micro Electronics");
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 255, 98, 24));
 
         jLabel12.setText("Total Marks");
@@ -284,6 +284,10 @@ public class eceResult extends javax.swing.JFrame {
                     jTextField13.setText("FAIL");
                 
             }
+            else{
+                JOptionPane.showMessageDialog(null, "Incorrect Roll Number");
+            }
+            
         }
         catch(Exception e){
             JOptionPane.showMessageDialog(null,e.toString());

@@ -276,9 +276,15 @@ public class studentHome extends javax.swing.JFrame {
                 if(avg > 33){
                     jTextField13.setText("PASS");
                 }
-                else
+                else{
+                    
                     jTextField13.setText("FAIL");
+                    
+                }
                 
+            }
+            else{
+                JOptionPane.showMessageDialog(null,"Incorrect Roll Number");
             }
         }
         catch(Exception e){

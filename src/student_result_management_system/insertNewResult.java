@@ -305,7 +305,7 @@ public class insertNewResult extends javax.swing.JFrame {
                 st.executeUpdate("insert into btech_cse(rollno,datastructure,algo,dbms,os,cn) values('"+rollno+"','"+ds+"','"+algo+"','"+dbms+"','"+os+"','"+cn+"')");
                 JOptionPane.showMessageDialog(null,"Result Saved Successfully" );
                 setVisible(false);
-                new insertNewResult().setVisible(true);
+                new insertNewMain().setVisible(true);
             }
             else {
                 JOptionPane.showMessageDialog(null, "Student is not registered");

@@ -302,7 +302,7 @@ public class el extends javax.swing.JFrame {
                 st.executeUpdate("insert into btech_el(rollno,analog,circuit,communication,magnetics,electromechanics) values('"+rollno+"','"+analog+"','"+circuit+"','"+comm+"','"+magnet+"','"+electro+"')");
                 JOptionPane.showMessageDialog(null,"Result Saved Successfully" );
                 setVisible(false);
-                new insertNewResult().setVisible(true);
+                new insertNewMain().setVisible(true);
             }
             else {
                 JOptionPane.showMessageDialog(null, "Student is not registered");

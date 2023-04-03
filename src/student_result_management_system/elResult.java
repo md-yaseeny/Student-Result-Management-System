@@ -90,19 +90,19 @@ public class elResult extends javax.swing.JFrame {
         });
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setText("Data Structure");
+        jLabel7.setText("Analog");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 47, 98, 24));
 
-        jLabel8.setText("Algorithm");
+        jLabel8.setText("Circuit");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 101, 98, 24));
 
-        jLabel9.setText("DBMS");
+        jLabel9.setText("Communication");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 152, 98, 24));
 
-        jLabel10.setText("OS");
+        jLabel10.setText("Magnetics");
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 205, 98, 24));
 
-        jLabel11.setText("CN");
+        jLabel11.setText("Electro Mechanics");
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 255, 98, 24));
 
         jLabel12.setText("Total Marks");
@@ -279,6 +279,9 @@ public class elResult extends javax.swing.JFrame {
                 else
                     jTextField13.setText("FAIL");
                 
+            }
+            else{
+                JOptionPane.showMessageDialog(null,"Incorrect Result");
             }
         }
         catch(Exception e){
